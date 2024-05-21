@@ -4,12 +4,12 @@ class Login extends CI_Controller{
  
 	function __construct(){
 		parent::__construct();		
-		$this->load->model('user_login');
+		$this->load->model('m_login');
  
 	}
  
 	function index(){
-		$this->load->view('login_page');
+		$this->load->view('v_login');
 	}
  
 	function aksi_login(){
